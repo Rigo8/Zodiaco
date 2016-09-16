@@ -37,7 +37,115 @@ BufferedReader br = new BufferedReader(new InputStreamReader(System.in)); //Ya t
         	String añoString=br.readLine();
         	int año=Integer.parseInt(añoString);
         	
-        System.out.println( dia + " "+mes+ " "+año);	        	
+        System.out.println( dia + " "+mes+ " "+año);	    
+
+	switch(mes){
+        	
+        	case 01: 
+        		
+        		if(dia>=21)
+        			zodiaco="Acuario";
+        	
+        		else
+        			zodiaco="Capricornio";
+        		
+        		break;
+        		
+        	case 2: 
+        		if(dia<=19)
+        			zodiaco= "Acuario";
+        		
+        		else
+        			zodiaco= "Pisis";
+        		break;
+        		
+        	case 3:
+        		if(dia <=20)
+        			zodiaco="Pisis";
+        		
+        		else
+        			zodiaco="Aries";
+        		
+        		break;
+        		
+        	case 4:
+        		if(dia <=20)
+        			zodiaco="Aries";
+        		
+        		else
+        			zodiaco="Tauro";
+        		break;
+        		
+        	case 5:
+        		if(dia <= 20)
+        			zodiaco="Tauro";
+        		
+        		else
+        			zodiaco="Geminis";
+        		break;
+        		
+        	case 6:
+        		if(dia <=20)
+        			zodiaco="Geminis";
+        		
+        		else
+        			zodiaco="Cancer";
+        		break;
+        		
+        	case 7:
+        		if(dia<=21)
+        			zodiaco="Cancer";
+        		
+        		else
+        			zodiaco="Leo";
+        		break;
+        		
+        	case 8:
+        		if(dia<=22)
+        			zodiaco="Leo";
+        		
+        		else
+        			zodiaco="Virgo";
+        		break;
+        		
+        	case 9:
+        		if(dia<=22)
+        			zodiaco="Virgo";
+        		
+        		else
+        			zodiaco="Libra";
+        		break;
+        		
+        	case 10:
+        		if(dia<=22)
+        			zodiaco="Libra";
+        		
+        		else
+        			zodiaco="Escorpio";
+        		break;
+        	case 11:
+        		if(dia<=21)
+        			zodiaco="Escorpio";
+        		
+        		else
+        			zodiaco="Sagitario";
+        		break;
+        	case 12:
+        		if(dia<=21)
+        			zodiaco="Sagitario";
+        		
+        		else
+        			zodiaco="Capricornio";
+        		break;
+        		
+        		
+               	
+              	
+        
+        	
+        	}
+        	
+        System.out.println("Signo Zodiacal "+ zodiaco);    	
 
         
         	
